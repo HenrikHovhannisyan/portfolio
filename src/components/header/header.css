@@ -48,6 +48,11 @@
     color: var(--title-color-dark);
 }
 
+/* Change Background Header */
+.scroll-header {
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For medium devices */
 @media screen and (max-width: 768px) {
@@ -110,10 +115,10 @@
     .nav__toggle {
         display: block;
     }
-  }
+}
 
-  /* For small devices */
-  @media screen and (max-width: 350px) {
+/* For small devices */
+@media screen and (max-width: 350px) {
     .nav__menu {
         padding: 2rem 0.25rem 4rem;
     }
@@ -121,4 +126,4 @@
     .nav__list {
         column-gap: 0;
     }
-  }
+}
