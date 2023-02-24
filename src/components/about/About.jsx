@@ -10,8 +10,9 @@ const About = () => {
       <span className="section__subtitle">My introduction</span>
 
       <div className="about__container container grid">
-        <img
-          src="https://media.licdn.com/dms/image/C4E03AQE3V2tKT6nA8Q/profile-displayphoto-shrink_200_200/0/1585547916428?e=1678924800&v=beta&t=MDj6zXySiafdp7SoX5GDLgdU23UGc_3CNBrLV_3TUWY"
+        <input
+          type="image"
+          src={"https://media.licdn.com/dms/image/C4E03AQE3V2tKT6nA8Q/profile-displayphoto-shrink_200_200/0/1585547916428?e=1678924800&v=beta&t=MDj6zXySiafdp7SoX5GDLgdU23UGc_3CNBrLV_3TUWY"}
           alt="About Image"
           className="about__img"
         />
