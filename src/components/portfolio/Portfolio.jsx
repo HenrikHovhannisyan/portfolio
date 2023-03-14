@@ -23,19 +23,22 @@ const Portfolio = () => {
         <button className="portfolio__link" onClick={() => setItem(PORTFOLIO)}>
           All
         </button>
+        {console.log(types)}
         {types.map((name, id) => {
           return (
-            <button
-              className="portfolio__link"
-              key={id}
-              onClick={() => filterItem(name)}
-            >
-              {name}
-            </button>
+            name && (
+              <button
+                className="portfolio__link"
+                key={id}
+                onClick={() => filterItem(name)}
+              >
+                {name}
+              </button>
+            )
           );
         })}
       </div>
-      
+
       <div className="portfolio__container container grid">
         {item.map((i) => {
           return (

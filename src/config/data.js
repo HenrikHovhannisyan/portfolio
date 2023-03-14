@@ -1,23 +1,51 @@
+import TO_DO_LIST from "../assets/works/ToDoList.png";
+import PORTFOLIO_IMG from "../assets/works/Portfolio.png";
+import TEXAS_AUTO from "../assets/works/TexasAuto.png";
+import WEATHER from "../assets/works/Weather.png";
+import CAT_CHAT from "../assets/works/CatChat.png";
+import MOVIE_GUIDE from "../assets/works/MovieGuide.png";
+
 export const PORTFOLIO = [
   {
     id: 1,
     type: "app",
     name: "To Do List",
-    image: "https://img001.prntscr.com/file/img001/WRrC4p5gR-uq3LCt6Hu-PQ.png",
+    image: TO_DO_LIST,
     url: "https://react-to-do-list-pi.vercel.app/",
   },
   {
     id: 2,
     type: "web",
     name: "Portfolio",
-    image: "https://img001.prntscr.com/file/img001/WRrC4p5gR-uq3LCt6Hu-PQ.png",
+    image: PORTFOLIO_IMG,
     url: "https://portfolio-henrikhovhannisyan.vercel.app/",
   },
   {
     id: 3,
     type: "web",
     name: "Texas Auto",
-    image: "https://img001.prntscr.com/file/img001/sIsSE_b6QOO-kWIjuSY0zg.png",
+    image: TEXAS_AUTO,
     url: "https://texas-auto.vercel.app/",
+  },
+  {
+    id: 4,
+    type: "app",
+    name: "Weather",
+    image: WEATHER,
+    url: "https://weather-app-flax-two-17.vercel.app/",
+  },
+  {
+    id: 5,
+    type: "web",
+    name: "Cat Chat",
+    image: CAT_CHAT,
+    url: "https://cat-chat-silk.vercel.app/",
+  },
+  {
+    id: 6,
+    type: "app",
+    name: "Movie Guide",
+    image: MOVIE_GUIDE,
+    url: "https://movie-guide-app-gold.vercel.app/",
   },
 ];
