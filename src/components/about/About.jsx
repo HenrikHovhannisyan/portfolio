@@ -2,6 +2,7 @@ import React from "react";
 import "./about.css";
 import CV from "../../assets/Henrik-Cv.pdf";
 import Info from "./Info";
+import { INFO } from "../../config/info";
 
 const About = () => {
   return (
@@ -12,7 +13,7 @@ const About = () => {
       <div className="about__container container grid">
         <input
           type="image"
-          src={"https://media.licdn.com/dms/image/C4E03AQE3V2tKT6nA8Q/profile-displayphoto-shrink_200_200/0/1585547916428?e=1678924800&v=beta&t=MDj6zXySiafdp7SoX5GDLgdU23UGc_3CNBrLV_3TUWY"}
+          src={INFO.avatar}
           alt="About Image"
           className="about__img"
         />

@@ -23,7 +23,6 @@ const Portfolio = () => {
         <button className="portfolio__link" onClick={() => setItem(PORTFOLIO)}>
           All
         </button>
-        {console.log(types)}
         {types.map((name, id) => {
           return (
             name && (
