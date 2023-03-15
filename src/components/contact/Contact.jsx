@@ -1,21 +1,27 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
+import { INFO } from "../../config/info";
+import Swal from "sweetalert2";
 
 const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
+    Swal.fire(
+      "Successfully",
+      "Your email has been successfully sent, I will contact you shortly",
+      "success"
+    );
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_fz269zh",
-        "template_quckkmq",
-        form.current,
-        "I2U-WYJaN64ATLT4_"
-      )
-      e.target.reset()
+    emailjs.sendForm(
+      "service_fz269zh",
+      "template_quckkmq",
+      form.current,
+      "I2U-WYJaN64ATLT4_"
+    );
+    e.target.reset();
   };
 
   return (
@@ -32,39 +38,38 @@ const Contact = () => {
               <i className="bx bx-mail-send contact__card-icon"></i>
 
               <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">user@gmail.com</span>
+              <span className="contact__card-data">{INFO.email}</span>
 
-              <a
-                href="mailto:examplemail@gmail.com.com"
-                className="contact__button"
-              >
+              <a href={`mailto:${INFO.email}`} className="contact__button">
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
 
             <div className="contact__card">
-              <i className="bx bxl-whatsapp contact__card-icon"></i>
+              <i className="bx bx-phone contact__card-icon"></i>
 
-              <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">999-888-777</span>
+              <h3 className="contact__card-title">Phone</h3>
+              <span className="contact__card-data">{INFO.phone}</span>
 
-              <a
-                href="https://api.whatsapp.com/send?phone=999888777&text=Hello, more information!"
-                className="contact__button"
-              >
+              <a href={`tel:${INFO.tel}`} className="contact__button">
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
 
             <div className="contact__card">
-              <i className="bx bxl-messenger contact__card-icon"></i>
+              <i className="bx bxl-telegram contact__card-icon"></i>
 
-              <h3 className="contact__card-title">Messenger</h3>
-              <span className="contact__card-data">user.fb123</span>
+              <h3 className="contact__card-title">Telegram</h3>
+              <span className="contact__card-data">{INFO.telegram}</span>
 
-              <a href="https://m.me/crypticalcoder" className="contact__button">
+              <a
+                href={`https://telegram.im/@${INFO.telegram}`}
+                className="contact__button"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
@@ -83,6 +88,7 @@ const Contact = () => {
                 name="name"
                 className="contact__form-input"
                 placeholder="Insert your name"
+                required
               />
             </div>
 
@@ -93,6 +99,7 @@ const Contact = () => {
                 name="email"
                 className="contact__form-input"
                 placeholder="Insert your email"
+                required
               />
             </div>
 
@@ -104,6 +111,7 @@ const Contact = () => {
                 cols="30"
                 rows="10"
                 placeholder="Insert your message"
+                required
               ></textarea>
             </div>
 

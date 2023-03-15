@@ -14,28 +14,48 @@ const Qualification = () => {
 
       <div className="qualification__container container">
         <div className="qualification__tabs">
-          <div className={toggleState === 1 ? "qualification__button button--flex qualification__active" : "qualification__button button--flex"} onClick={() => toggleTab(1)}>
+          <div
+            className={
+              toggleState === 1
+                ? "qualification__button button--flex qualification__active"
+                : "qualification__button button--flex"
+            }
+            onClick={() => toggleTab(1)}
+          >
             <i className="uil uil-graduation-cap qualification__icon"></i>
             Education
           </div>
 
-          <div className={toggleState === 2 ? "qualification__button button--flex qualification__active" : "qualification__button button--flex"} onClick={() => toggleTab(2)}>
+          <div
+            className={
+              toggleState === 2
+                ? "qualification__button button--flex qualification__active"
+                : "qualification__button button--flex"
+            }
+            onClick={() => toggleTab(2)}
+          >
             <i className="uil uil-briefcase-alt qualification__icon"></i>
             Experience
           </div>
         </div>
 
         <div className="qualification__section">
-          <div className={toggleState === 1 ? "qualification__content qualification__content-active" : "qualification__content"}>
+          <div
+            className={
+              toggleState === 1
+                ? "qualification__content qualification__content-active"
+                : "qualification__content"
+            }
+          >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Developer</h3>
+                <h3 className="qualification__title">School</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  142 School named after A. Gharibyan
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>
-                  2016 - 2017
+                  1998 - 2006
                 </div>
               </div>
 
@@ -54,13 +74,13 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">UX Expert</h3>
+                <h3 className="qualification__title">College</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  Yerevan Armenian-Greek State College
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>
-                  2017 - 2018
+                  2006 - 2009
                 </div>
               </div>
             </div>
@@ -73,7 +93,7 @@ const Qualification = () => {
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>
-                  2021 - Present
+                  2020 - Present
                 </div>
               </div>
 
@@ -98,22 +118,28 @@ const Qualification = () => {
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>
-                  2021 - Present
+                  2020 - Present
                 </div>
               </div>
             </div>
           </div>
 
-          <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
+          <div
+            className={
+              toggleState === 2
+                ? "qualification__content qualification__content-active"
+                : "qualification__content"
+            }
+          >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Product Desinger</h3>
+                <h3 className="qualification__title">Sard Engineering</h3>
                 <span className="qualification__subtitle">
-                  Microsoft - Spain
+                  Full stack developer
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>
-                  2016 - 2017
+                  2020 - 2021
                 </div>
               </div>
 
@@ -132,21 +158,23 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Art Desinger</h3>
+                <h3 className="qualification__title">Asamblea</h3>
                 <span className="qualification__subtitle">
-                  Apple Inc - Spain
+                  Full stack developer (Freelance)
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>
-                  2017 - 2018
+                  2020 - 2021
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Desinger</h3>
-                <span className="qualification__subtitle">Figma - Spain</span>
+                <h3 className="qualification__title">Ithire</h3>
+                <span className="qualification__subtitle">
+                  Full stack developer
+                </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>
                   2021 - Present
