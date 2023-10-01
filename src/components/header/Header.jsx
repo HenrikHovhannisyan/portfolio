@@ -31,7 +31,7 @@ const Header = () => {
                   activeNav === "#home" ? "nav__link active-link" : "nav__link"
                 }
               >
-                <i className="uil uil-estate nav__icon"></i> Home
+                <i className="uil uil-estate nav__icon"/> Home
               </a>
             </li>
 
@@ -43,7 +43,7 @@ const Header = () => {
                   activeNav === "#about" ? "nav__link active-link" : "nav__link"
                 }
               >
-                <i className="uil uil-user nav__icon"></i> About
+                <i className="uil uil-user nav__icon"/> About
               </a>
             </li>
 
@@ -57,7 +57,7 @@ const Header = () => {
                     : "nav__link"
                 }
               >
-                <i className="uil uil-file-alt nav__icon"></i> Skills
+                <i className="uil uil-file-alt nav__icon"/> Skills
               </a>
             </li>
 
@@ -71,7 +71,7 @@ const Header = () => {
                     : "nav__link"
                 }
               >
-                <i className="uil uil-scenery nav__icon"></i> Portfolio
+                <i className="uil uil-scenery nav__icon"/> Portfolio
               </a>
             </li>
 
@@ -85,19 +85,19 @@ const Header = () => {
                     : "nav__link"
                 }
               >
-                <i className="uil uil-message nav__icon"></i> Contact
+                <i className="uil uil-message nav__icon"/> Contact
               </a>
             </li>
           </ul>
 
           <i
-            className="uil uil-times nav__close"
-            onClick={() => setIsToggle(!isToggle)}
-          ></i>
+    className="uil uil-times nav__close"
+    onClick={() => setIsToggle(!isToggle)}
+    />
         </div>
 
         <div className="nav__toggle" onClick={() => setIsToggle(!isToggle)}>
-          <i className="uil uil-apps"></i>
+          <i className="uil uil-apps"/>
         </div>
       </nav>
     </header>

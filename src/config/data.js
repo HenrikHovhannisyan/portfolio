@@ -4,6 +4,8 @@ import TEXAS_AUTO from "../assets/works/TexasAuto.png";
 import WEATHER from "../assets/works/Weather.png";
 import CAT_CHAT from "../assets/works/CatChat.png";
 import MOVIE_GUIDE from "../assets/works/MovieGuide.png";
+import COUNTRIES from "../assets/works/Countries.png";
+import DELETE_ME from "../assets/works/DeleteMe.png";
 
 export const PORTFOLIO = [
   {
@@ -47,5 +49,19 @@ export const PORTFOLIO = [
     name: "Movie Guide",
     image: MOVIE_GUIDE,
     url: "https://movie-guide-app-gold.vercel.app/",
+  },
+  {
+    id: 7,
+    type: "app",
+    name: "Countries",
+    image: COUNTRIES,
+    url: "https://countries-weld-three.vercel.app/",
+  },
+  {
+    id: 8,
+    type: "web",
+    name: "Delete Me",
+    image: DELETE_ME,
+    url: "https://delete-me-green.vercel.app/",
   },
 ];

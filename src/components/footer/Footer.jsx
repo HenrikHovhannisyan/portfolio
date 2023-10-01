@@ -6,7 +6,6 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">Portfolio</h1>
 
         <ul className="footer__list">
           <li>
@@ -35,7 +34,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i className="bx bxl-github"></i>
+            <i className="bx bxl-github"/>
           </a>
 
           <a
@@ -44,7 +43,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i className="bx bxl-linkedin"></i>
+            <i className="bx bxl-linkedin"/>
           </a>
         </div>
       </div>

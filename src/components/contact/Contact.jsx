@@ -35,31 +35,31 @@ const Contact = () => {
 
           <div className="contact__info">
             <div className="contact__card">
-              <i className="bx bx-mail-send contact__card-icon"></i>
+              <i className="bx bx-mail-send contact__card-icon"/>
 
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">{INFO.email}</span>
 
               <a href={`mailto:${INFO.email}`} className="contact__button">
                 Write me
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                <i className="bx bx-right-arrow-alt contact__button-icon"/>
               </a>
             </div>
 
             <div className="contact__card">
-              <i className="bx bx-phone contact__card-icon"></i>
+              <i className="bx bx-phone contact__card-icon"/>
 
               <h3 className="contact__card-title">Phone</h3>
               <span className="contact__card-data">{INFO.phone}</span>
 
               <a href={`tel:${INFO.tel}`} className="contact__button">
                 Write me
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                <i className="bx bx-right-arrow-alt contact__button-icon"/>
               </a>
             </div>
 
             <div className="contact__card">
-              <i className="bx bxl-telegram contact__card-icon"></i>
+              <i className="bx bxl-telegram contact__card-icon"/>
 
               <h3 className="contact__card-title">Telegram</h3>
               <span className="contact__card-data">{INFO.telegram}</span>
@@ -71,7 +71,7 @@ const Contact = () => {
                 rel="noreferrer"
               >
                 Write me
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                <i className="bx bx-right-arrow-alt contact__button-icon"/>
               </a>
             </div>
           </div>

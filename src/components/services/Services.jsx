@@ -16,13 +16,13 @@ const Services = () => {
       <div className="services__container container grid">
         <div className="services__content">
           <div>
-            <i className="uil uil-web-grid services__icon"></i>
+            <i className="uil uil-web-grid services__icon"/>
             <h3 className="services__title">Front End</h3>
           </div>
 
           <span className="services__button" onClick={() => toggleTab(1)}>
             View More
-            <i className="uil uil-arrow-right services__button-icon"></i>
+            <i className="uil uil-arrow-right services__button-icon"/>
           </span>
 
           <div
@@ -34,9 +34,9 @@ const Services = () => {
           >
             <div className="services__modal-content">
               <i
-                className="uil uil-times services__modal-close"
-                onClick={() => toggleTab(0)}
-              ></i>
+    className="uil uil-times services__modal-close"
+    onClick={() => toggleTab(0)}
+    />
 
               <h3 className="services__modal-title">Front End</h3>
               <p className="services__modal-description">
@@ -45,14 +45,14 @@ const Services = () => {
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <i className="uil uil-check-circle services__modal-icon"/>
                   <p className="services__modal-info">
                     I develop responsive sites
                   </p>
                 </li>
 
                 <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <i className="uil uil-check-circle services__modal-icon"/>
                   <p className="services__modal-info">Web page development.</p>
                 </li>
               </ul>
@@ -62,13 +62,13 @@ const Services = () => {
 
         <div className="services__content">
           <div>
-            <i className="uil uil-arrow services__icon"></i>
+            <i className="uil uil-arrow services__icon"/>
             <h3 className="services__title">Backend</h3>
           </div>
 
           <span className="services__button" onClick={() => toggleTab(2)}>
             View More
-            <i className="uil uil-arrow-right services__button-icon"></i>
+            <i className="uil uil-arrow-right services__button-icon"/>
           </span>
 
           <div
@@ -80,9 +80,9 @@ const Services = () => {
           >
             <div className="services__modal-content">
               <i
-                className="uil uil-times services__modal-close"
-                onClick={() => toggleTab(0)}
-              ></i>
+    className="uil uil-times services__modal-close"
+    onClick={() => toggleTab(0)}
+    />
 
               <h3 className="services__modal-title">Backend</h3>
               <p className="services__modal-description">
@@ -91,7 +91,7 @@ const Services = () => {
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <i className="uil uil-check-circle services__modal-icon"/>
                   <p className="services__modal-info">Web page development.</p>
                 </li>
               </ul>

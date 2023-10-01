@@ -10,7 +10,7 @@ const Social = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <i className="uil uil-github"></i>
+        <i className="uil uil-github"/>
       </a>
 
       <a
@@ -19,7 +19,7 @@ const Social = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <i className="uil uil-linkedin"></i>
+        <i className="uil uil-linkedin"/>
       </a>
     </div>
   );

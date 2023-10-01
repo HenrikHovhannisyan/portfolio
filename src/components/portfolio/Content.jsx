@@ -14,7 +14,7 @@ const Content = ({name, image, url}) => {
 
       <a href={url} className="portfolio__button" target="_blank" rel="noreferrer">
         View More
-        <i className="uil uil-arrow-right portfolio__button-icon"></i>
+        <i className="uil uil-arrow-right portfolio__button-icon"/>
       </a>
     </div>
   );

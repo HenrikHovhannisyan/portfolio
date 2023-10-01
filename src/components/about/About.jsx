@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.css";
-import CV from "../../assets/Henrik-Cv.pdf";
 import Info from "./Info";
 import { INFO } from "../../config/info";
 
@@ -21,9 +20,7 @@ const About = () => {
         <div className="about__data">
           <Info />
 
-          <p className="about__description">{INFO.about}</p>
-
-          <a download="" href={CV} className="button button--flex">
+          <a download="" href={INFO.cv} className="button button--flex">
             Download CV
             <svg
               className="button__icon"
