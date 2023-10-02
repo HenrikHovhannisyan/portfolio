@@ -1,4 +1,4 @@
-import image from "../assets/about.jpg";
+import image from "../assets/avatar.png";
 import cvFile from "../assets/HenrikHovhannisyan-CV.pdf";
 
 export const INFO = {
