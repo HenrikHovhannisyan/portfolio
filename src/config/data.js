@@ -7,6 +7,7 @@ import MOVIE_GUIDE_img from "../assets/works/MovieGuide.png";
 import COUNTRIES_img from "../assets/works/Countries.png";
 import DeleteMe_img from "../assets/works/DeleteMe.png";
 import ReactShop_img from "../assets/works/ReactShop.png";
+import PasswordGenerator_img from "../assets/works/PasswordGenerator.png";
 
 export const PORTFOLIO = [
   {
@@ -71,5 +72,12 @@ export const PORTFOLIO = [
     name: "React Shop",
     image: ReactShop_img,
     url: "https://react-shop-rust-five.vercel.app/",
+  },
+  {
+    id: 10,
+    type: "app",
+    name: "Password Generator",
+    image: PasswordGenerator_img,
+    url: "https://password-generator-umber-rho.vercel.app/",
   },
 ];
