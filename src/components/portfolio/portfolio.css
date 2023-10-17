@@ -11,13 +11,31 @@
     padding: 1rem;
 }
 
+.portfolio__button__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .portfolio__button {
     color: var(--title-color);
     font-size: var(--small-font-size);
+    line-height: var(--small-font-size);
     display: inline-flex;
-    align-items: center;
     column-gap: 0.25rem;
     cursor: pointer;
+}
+
+.portfolio__button__git {
+    background-color: var(--title-color);
+    color: var(--container-color);
+    line-height: var(--small-font-size);
+    display: inline-flex;
+    column-gap: 0.25rem;
+    cursor: pointer;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
 }
 
 .portfolio__title {
@@ -79,6 +97,15 @@
 @media screen and (max-width: 768px) {
     .portfolio__container {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .portfolio__title {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        max-width: 95px;
     }
 }
 
