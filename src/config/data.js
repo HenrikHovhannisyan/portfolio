@@ -6,6 +6,7 @@ import MOVIE_GUIDE_img from "../assets/works/MovieGuide.png";
 import COUNTRIES_img from "../assets/works/Countries.png";
 import DeleteMe_img from "../assets/works/DeleteMe.png";
 import PasswordGenerator_img from "../assets/works/PasswordGenerator.png";
+import AiImageGenerator_img from "../assets/works/AiImageGenerator.png";
 
 export const PORTFOLIO = [
   {
@@ -71,5 +72,13 @@ export const PORTFOLIO = [
     image: PasswordGenerator_img,
     git: "https://github.com/HenrikHovhannisyan/password-generator",
     url: "https://password-generator-umber-rho.vercel.app/",
+  },
+  {
+    id: 9,
+    type: "app",
+    name: "Ai Image Generator",
+    image: AiImageGenerator_img,
+    git: "https://github.com/HenrikHovhannisyan/ai-image-generator",
+    url: "https://ai-image-generator-sooty.vercel.app/",
   },
 ];
