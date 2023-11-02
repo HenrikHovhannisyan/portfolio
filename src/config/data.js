@@ -7,6 +7,7 @@ import COUNTRIES_img from "../assets/works/Countries.png";
 import DeleteMe_img from "../assets/works/DeleteMe.png";
 import PasswordGenerator_img from "../assets/works/PasswordGenerator.png";
 import AiImageGenerator_img from "../assets/works/AiImageGenerator.png";
+import MovieTrailers_img from "../assets/works/MovieTrailers.png";
 
 export const PORTFOLIO = [
   {
@@ -80,5 +81,13 @@ export const PORTFOLIO = [
     image: AiImageGenerator_img,
     git: "https://github.com/HenrikHovhannisyan/ai-image-generator",
     url: "https://ai-image-generator-sooty.vercel.app/",
+  },
+  {
+    id: 10,
+    type: "web",
+    name: "Movie Trailers",
+    image: MovieTrailers_img,
+    git: "https://github.com/HenrikHovhannisyan/movie-trailers",
+    url: "https://movie-trailers-one.vercel.app/",
   },
 ];
