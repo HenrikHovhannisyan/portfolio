@@ -1,5 +1,5 @@
 import image from "../assets/avatar.png";
-import cvFile from "../assets/HenrikHovhannisyan-CV.pdf";
+import cvFile from "../assets/HenrikHovhannisyan-QA-CV.pdf";
 
 export const INFO = {
     avatar: image,
