@@ -1,10 +1,7 @@
 import Portfolio_img from "../assets/works/Portfolio.png";
-import TexasAuto_img from "../assets/works/TexasAuto.png";
 import WEATHER_img from "../assets/works/Weather.png";
 import CatChat_img from "../assets/works/CatChat.png";
 import MOVIE_GUIDE_img from "../assets/works/MovieGuide.png";
-import COUNTRIES_img from "../assets/works/Countries.png";
-import DeleteMe_img from "../assets/works/DeleteMe.png";
 import PasswordGenerator_img from "../assets/works/PasswordGenerator.png";
 import AiImageGenerator_img from "../assets/works/AiImageGenerator.png";
 import MovieTrailers_img from "../assets/works/MovieTrailers.png";
@@ -20,14 +17,6 @@ export const PORTFOLIO = [
   },
   {
     id: 2,
-    type: "web",
-    name: "Texas Auto",
-    image: TexasAuto_img,
-    git: "https://github.com/HenrikHovhannisyan/react-texas-auto",
-    url: "https://texas-auto.vercel.app/",
-  },
-  {
-    id: 3,
     type: "app",
     name: "Weather",
     image: WEATHER_img,
@@ -35,7 +24,7 @@ export const PORTFOLIO = [
     url: "https://weather-app-flax-two-17.vercel.app/",
   },
   {
-    id: 4,
+    id: 3,
     type: "web",
     name: "Cat Chat",
     image: CatChat_img,
@@ -43,7 +32,7 @@ export const PORTFOLIO = [
     url: "https://cat-chat-silk.vercel.app/",
   },
   {
-    id: 5,
+    id: 4,
     type: "app",
     name: "Movie Guide",
     image: MOVIE_GUIDE_img,
@@ -51,23 +40,7 @@ export const PORTFOLIO = [
     url: "https://movie-guide-app-gold.vercel.app/",
   },
   {
-    id: 6,
-    type: "app",
-    name: "Countries",
-    image: COUNTRIES_img,
-    git: "https://github.com/HenrikHovhannisyan/countries",
-    url: "https://countries-weld-three.vercel.app/",
-  },
-  {
-    id: 7,
-    type: "web",
-    name: "Delete Me",
-    image: DeleteMe_img,
-    git: "https://github.com/HenrikHovhannisyan/delete-me",
-    url: "https://delete-me-green.vercel.app/",
-  },
-  {
-    id: 8,
+    id: 5,
     type: "app",
     name: "Password Generator",
     image: PasswordGenerator_img,
@@ -75,7 +48,7 @@ export const PORTFOLIO = [
     url: "https://password-generator-umber-rho.vercel.app/",
   },
   {
-    id: 9,
+    id: 6,
     type: "app",
     name: "Ai Image Generator",
     image: AiImageGenerator_img,
@@ -83,7 +56,7 @@ export const PORTFOLIO = [
     url: "https://ai-image-generator-sooty.vercel.app/",
   },
   {
-    id: 10,
+    id: 7,
     type: "web",
     name: "Movie Trailers",
     image: MovieTrailers_img,
