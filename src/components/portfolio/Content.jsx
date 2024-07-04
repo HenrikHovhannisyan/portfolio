@@ -1,15 +1,12 @@
 import React from "react";
 
-const Content = ({name, image, git, url}) => {
+const Content = ({name, description, image, git, url}) => {
     return (
         <div className="portfolio__content">
             <div>
-                <img
-                    src={image}
-                    className="portfolio__img"
-                    alt="Portfolio img"
-                />
+                <img src={image} className="portfolio__img" alt="Portfolio img"/>
                 <h3 className="portfolio__title">{name}</h3>
+                <p className="portfolio__description" dangerouslySetInnerHTML={{ __html: description }}></p>
             </div>
 
             <div className="portfolio__button__container">

@@ -44,6 +44,11 @@
     font-weight: var(--font-medium);
 }
 
+.portfolio__description {
+    font-size: var(--smaller-font-size);
+    margin-bottom: var(--mb-1);
+}
+
 .portfolio__img {
     width: 100%;
     max-width: 255px;
@@ -110,7 +115,7 @@
 }
 
 /* For small devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 510px) {
     .portfolio__container {
         grid-template-columns: max-content;
     }
