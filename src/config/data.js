@@ -75,7 +75,7 @@ export const PORTFOLIO = [
         id: 8,
         type: "web",
         name: "Netflix Clone",
-        description: "React, JavaScript, HTML, CSS <br> <b>Login</b> - test@mail.com <br> <b>Password</b> - 123456",
+        description: "Firebase, React, JavaScript, HTML, CSS <br> <b>Login</b> - test@mail.com <br> <b>Password</b> - 123456",
         image: NetflixClone_img,
         git: "https://github.com/HenrikHovhannisyan/netflix-clone",
         url: "https://netflix-clone-henrikhovhannisyans-projects.vercel.app/",
