@@ -6,7 +6,7 @@ export const INFO = {
     cv: cvFile,
     full_name: "Henrik Hovhannisyan",
     description: ``,
-    position: "Full Stack Developer",
+    position: "Front End Developer",
     phone: "095-31-10-91",
     tel: "+37495311091",
     telegram: "HenrikHovhannisyan",

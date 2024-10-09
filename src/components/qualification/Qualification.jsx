@@ -6,7 +6,7 @@ const Qualification = () => {
         <section className="qualification section">
             <div className="qualification__container container">
                 <div className="qualification__tabs">
-                    <div className={ "qualification__button button--flex qualification__active"}>
+                    <div className={"qualification__button button--flex qualification__active"}>
                         <i className="uil uil-briefcase-alt qualification__icon"/>
                         <h2>Experience</h2>
                     </div>
@@ -14,8 +14,8 @@ const Qualification = () => {
                 <h3>IThire</h3>
                 <div className="qualification__section">
                     <p>
-                        I work at IThire’s main product and on several side projects. As a Full Stack Engineer, I create
-                        and maintain web applications.
+                        I am currently working on IThire's core product, where I focus on creating a user-friendly
+                        interface. In addition to this, I am also involved in several side projects.
                     </p>
                 </div>
             </div>

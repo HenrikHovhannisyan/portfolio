@@ -30,7 +30,7 @@
 
 .qualification__section {
     display: grid;
-    grid-template-columns: 0.5fr;
+    grid-template-columns: 0.9fr;
     justify-content: center;
 }
 

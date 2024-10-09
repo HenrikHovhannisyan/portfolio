@@ -1,7 +1,6 @@
 import Portfolio_img from "../assets/works/Portfolio.png";
 import WEATHER_img from "../assets/works/Weather.png";
 import CatChat_img from "../assets/works/CatChat.png";
-import MOVIE_GUIDE_img from "../assets/works/MovieGuide.png";
 import PasswordGenerator_img from "../assets/works/PasswordGenerator.png";
 import AiImageGenerator_img from "../assets/works/AiImageGenerator.png";
 import MovieTrailers_img from "../assets/works/MovieTrailers.png";
@@ -47,15 +46,6 @@ export const PORTFOLIO = [
     {
         id: 5,
         type: "app",
-        name: "Movie Guide",
-        description: "JavaScript, HTML, CSS",
-        image: MOVIE_GUIDE_img,
-        git: "https://github.com/HenrikHovhannisyan/movie-guide-app",
-        url: "https://movie-guide-app-gold.vercel.app/",
-    },
-    {
-        id: 6,
-        type: "app",
         name: "Ai Image Generator",
         description: "JavaScript, HTML, CSS",
         image: AiImageGenerator_img,
@@ -63,7 +53,7 @@ export const PORTFOLIO = [
         url: "https://ai-image-generator-sooty.vercel.app/",
     },
     {
-        id: 7,
+        id: 6,
         type: "web",
         name: "Cat Chat",
         description: "React, JavaScript, HTML, CSS, Bootstrap",
@@ -72,7 +62,7 @@ export const PORTFOLIO = [
         url: "https://cat-chat-silk.vercel.app/",
     },
     {
-        id: 8,
+        id: 7,
         type: "app",
         name: "Weather",
         description: "JavaScript, HTML, CSS",
