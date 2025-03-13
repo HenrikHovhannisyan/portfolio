@@ -41,7 +41,14 @@ const Portfolio = () => {
       <div className="portfolio__container container grid">
         {item.map((i) => {
           return (
-            <Content key={i.id} name={i.name} description={i.description} image={i.image} git={i.git} url={i.url} />
+            <Content
+              key={i.id}
+              name={i.name}
+              description={i.description}
+              image={i.image}
+              git={i.git}
+              url={i.url}
+            />
           );
         })}
       </div>
