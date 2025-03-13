@@ -6,6 +6,7 @@ import AiImageGenerator_img from "../assets/works/AiImageGenerator.png";
 import MovieTrailers_img from "../assets/works/MovieTrailers.png";
 import Shop_img from "../assets/works/Shop.png";
 import NextPortfolio_img from "../assets/works/NextPortfolio.png";
+import KidVideo_img from "../assets/works/KidVideo.png";
 
 export const PORTFOLIO = [
   {
@@ -79,5 +80,14 @@ export const PORTFOLIO = [
     image: NextPortfolio_img,
     git: "https://github.com/HenrikHovhannisyan/next-portfolio",
     url: "https://next-portfolio-henrikhovhannisyans-projects.vercel.app/",
+  },
+  {
+    id: 9,
+    type: "web",
+    name: "Kid Video",
+    description: "Firebase, React, JavaScript, HTML, CSS",
+    image: KidVideo_img,
+    git: "https://github.com/HenrikHovhannisyan/kid-video-app",
+    url: "https://kid-video-app.vercel.app/",
   },
 ];
