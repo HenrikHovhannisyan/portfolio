@@ -3,17 +3,18 @@ import React from "react";
 const Info = () => {
   return (
     <div className="about__info grid">
-      <div className="about__box">
-        <i className="bx bx-award about__icon" />
-        <h3 className="about__title">Experience</h3>
-        <span className="about__subtitle">4 Years Working</span>
-      </div>
-
-      <div className="about__box">
-        <i className="bx bx-briefcase-alt about__icon" />
-        <h3 className="about__title">Completed</h3>
-        <span className="about__subtitle">24 + Projects</span>
-      </div>
+      <p className="">
+        I am a frontend developer with experience in creating responsive and
+        interactive web applications. I have expertise in HTML, CSS, and modern
+        layout techniques such as Flexbox and Grid. I develop dynamic elements
+        using JavaScript and the ReactJS library. I also have experience with
+        PHP (Laravel) and MySQL/SQL databases, which allows me to develop and
+        integrate the backend part of web applications. I enjoy learning new
+        technologies and constantly improving my skills to create high-quality
+        and functional web solutions. In addition to office work, I also work as
+        a freelancer in my free time, taking on small projects and solving
+        various development challenges to enhance my expertise.
+      </p>
     </div>
   );
 };
