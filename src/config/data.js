@@ -1,8 +1,6 @@
 import Portfolio_img from "../assets/works/Portfolio.png";
-import WEATHER_img from "../assets/works/Weather.png";
 import CatChat_img from "../assets/works/CatChat.png";
 import PasswordGenerator_img from "../assets/works/PasswordGenerator.png";
-import AiImageGenerator_img from "../assets/works/AiImageGenerator.png";
 import MovieTrailers_img from "../assets/works/MovieTrailers.png";
 import Shop_img from "../assets/works/Shop.png";
 import NextPortfolio_img from "../assets/works/NextPortfolio.png";
@@ -10,7 +8,7 @@ import KidVideo_img from "../assets/works/KidVideo.png";
 
 export const PORTFOLIO = [
   {
-    id: 9,
+    id: 7,
     type: "web",
     name: "Kid Video",
     description: "Firebase, React, JavaScript, HTML, CSS, PWA",
@@ -19,7 +17,7 @@ export const PORTFOLIO = [
     url: "https://kid-video-app.vercel.app/",
   },
   {
-    id: 8,
+    id: 6,
     type: "web",
     name: "Next Portfolio",
     description: "Next.js, React, Tailwind CSS, Typescript, HTML",
@@ -28,7 +26,7 @@ export const PORTFOLIO = [
     url: "https://next-portfolio-henrikhovhannisyans-projects.vercel.app/",
   },
   {
-    id: 7,
+    id: 5,
     type: "web",
     name: "Shop",
     description: "PHP, Laravel, JavaScript, HTML, CSS, Bootstrap, PWA",
@@ -37,7 +35,7 @@ export const PORTFOLIO = [
     url: "https://sofia.sard-engineering.am/",
   },
   {
-    id: 6,
+    id: 4,
     type: "web",
     name: "Portfolio",
     description: "React, JavaScript, HTML, CSS",
@@ -46,7 +44,7 @@ export const PORTFOLIO = [
     url: "https://portfolio-henrikhovhannisyan.vercel.app/",
   },
   {
-    id: 5,
+    id: 3,
     type: "app",
     name: "Password Generator",
     description: "JavaScript, HTML, CSS",
@@ -55,7 +53,7 @@ export const PORTFOLIO = [
     url: "https://password-generator-umber-rho.vercel.app/",
   },
   {
-    id: 4,
+    id: 2,
     type: "web",
     name: "Movie Trailers",
     description: "React, JavaScript, HTML, CSS",
@@ -64,30 +62,12 @@ export const PORTFOLIO = [
     url: "https://movie-trailers-one.vercel.app/",
   },
   {
-    id: 3,
+    id: 1,
     type: "app",
-    name: "Ai Image Generator",
-    description: "JavaScript, HTML, CSS",
-    image: AiImageGenerator_img,
-    git: "https://github.com/HenrikHovhannisyan/ai-image-generator",
-    url: "https://ai-image-generator-sooty.vercel.app/",
-  },
-  {
-    id: 2,
-    type: "web",
     name: "Cat Chat",
     description: "React, JavaScript, HTML, CSS, Bootstrap",
     image: CatChat_img,
     git: "https://github.com/HenrikHovhannisyan/cat-chat",
     url: "https://cat-chat-silk.vercel.app/",
-  },
-  {
-    id: 1,
-    type: "app",
-    name: "Weather",
-    description: "JavaScript, HTML, CSS",
-    image: WEATHER_img,
-    git: "https://github.com/HenrikHovhannisyan/weather-app",
-    url: "https://weather-app-flax-two-17.vercel.app/",
   },
 ];
